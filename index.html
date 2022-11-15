@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://cdn.contexttravel.com/image/upload/c_fill,q_60,w_2600/v1549318570/production/city/hero_image_2_1549318566.jpg");
+            background-position: center;
+
+            color: white;
+        }
+
+        .time{
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 40px;
+        }
+
+        .todo {
+            font-size: 35px;
+        }
+
+        .author {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+
+</body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">승아 보고싶었어!</div>
+        <div class="to do">연기 신청하기</div>
+    </div>
+
+    <div class="quote">
+        <div id="content" class="content">" loading "</div>
+        <div id="author" class="author">- loading -</div>
+    </div>
+</html>
